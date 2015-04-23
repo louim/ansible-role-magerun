@@ -5,3 +5,7 @@
     dest: /usr/local/bin/magerun
     mode: 0755
 
+- name: Copy the config file.
+  template:
+    src: conf.yaml.j2
+    dest: /etc/conf.yaml
