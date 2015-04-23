@@ -1,0 +1,16 @@
+commands:
+  N98\Magento\Command\Installer\InstallCommand:
+    installation:
+      defaults:
+        currency: {{ magerun_installation_currency }}
+        locale: {{ magerun_installation_locale }}
+        timezone: {{ magerun_installation_timezone }}
+        use_secure: {{ magerun_installation_use_secure }}
+        use_rewrites: {{ magerun_installation_use_rewrites }}
+        session_save: {{ magerun_installation_session_save }}
+        admin_username: {{ magerun_installation_admin_username }}
+        admin_firstname: {{ magerun_installation_admin_firstname }}
+        admin_lastname: {{ magerun_installation_admin_lastname }}
+        admin_password: {{ magerun_installation_admin_password }}
+        admin_frontname: {{ magerun_installation_admin_frontname }}
+        admin_email: {{ magerun_installation_admin_email }}

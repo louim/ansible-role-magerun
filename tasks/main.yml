@@ -1,0 +1,7 @@
+---
+- name: Download and install N98 Magerun
+  get_url:
+    url: https://raw.githubusercontent.com/netz98/n98-magerun/master/n98-magerun.phar
+    dest: /usr/local/bin/magerun
+    mode: 0755
+
