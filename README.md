@@ -22,7 +22,7 @@ You can customize de the defaults used for Magento automatic installation. Those
     magerun_installation_admin_username: admin
     magerun_installation_admin_firstname: John
     magerun_installation_admin_lastname: Doe
-    magerun_installation_admin_password: magentodev
+    magerun_installation_admin_password: password123
     magerun_installation_admin_frontname: admin
     magerun_installation_admin_email: john.doe@example.com
 
