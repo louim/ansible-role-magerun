@@ -7,5 +7,5 @@
 
 - name: Copy the config file.
   template:
-    src: conf.yaml.j2
-    dest: /etc/conf.yaml
+    src: config.yaml.j2
+    dest: /etc/config.yaml
