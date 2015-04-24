@@ -7,5 +7,5 @@
 
 - name: Copy the config file.
   template:
-    src: config.yaml.j2
-    dest: /etc/config.yaml
+    src: n98-magerun.yaml.j2
+    dest: /etc/n98-magerun.yaml
