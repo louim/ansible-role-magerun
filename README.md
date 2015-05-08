@@ -1,5 +1,5 @@
-Role Name
-=========
+Ansible Magerun
+====================
 
 This role provide installation for [n98-magerun](https://github.com/netz98/n98-magerun).
 
